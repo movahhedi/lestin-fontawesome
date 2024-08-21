@@ -1,0 +1,62 @@
+{
+	"name": "@lestin/fontawesome",
+	"version": "0.1.0",
+	"description": "FontAwesome component for Lestin",
+	"author": "Shahab Movahhedi <dev@shmovahhedi.com> (https://shmovahhedi.com)",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/movahhedi/lestin-fontawesome"
+	},
+	"bugs": {
+		"url": "https://github.com/movahhedi/lestin-fontawesome/issues"
+	},
+	"homepage": "https://github.com/movahhedi/lestin-fontawesome#readme",
+	"keywords": [
+		"fontawesome",
+		"lestin",
+		"jsx",
+		"component"
+	],
+	"packageManager": "yarn@4.4.0",
+	"type": "module",
+	"source": "./src/index.tsx",
+	"exports": {
+		".": "./dist/index.modern.js",
+		"./lestin": "./src/index.tsx",
+		"./lestin.tsx": "./src/index.tsx",
+		"./src/lestin": "./src/index.tsx",
+		"./src/lestin.tsx": "./src/index.tsx"
+	},
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.module.js",
+	"unpkg": "./dist/index.umd.js",
+	"types": "./dist/index.d.ts",
+	"files": [
+		"src",
+		"dist"
+	],
+	"scripts": {
+		"prepublishOnly": "yarn build",
+		"build": "microbundle",
+		"dev": "microbundle watch",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"@types/lodash": "^4",
+		"jsdom": "^24.1.1",
+		"lestin": "^0.1.14",
+		"lodash": "^4.17.21",
+		"microbundle": "^0.15.1",
+		"typescript": "^5.0.4",
+		"vitest": "^2.0.5"
+	},
+	"cspell": {
+		"version": "0.2",
+		"words": [
+			"microbundle",
+			"lestin",
+			"fontawesome"
+		]
+	}
+}

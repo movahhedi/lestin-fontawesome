@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"target": "ES2015",
+		"module": "ES2015",
+		"lib": ["ES2015", "DOM"],
+		"moduleResolution": "Node10",
+		"jsx": "react-jsx",
+		"jsxImportSource": "lestin",
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"jsxFactory": "",
+		"jsxFragmentFactory": "",
+		"paths": {
+			"lestin": ["./node_modules/lestin/jsx-runtime"],
+		},
+		"types": ["vitest/jsdom"],
+	}
+}
