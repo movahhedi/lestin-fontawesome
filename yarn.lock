@@ -1671,6 +1671,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lestin/fontawesome@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@lestin/fontawesome@workspace:."
+  dependencies:
+    "@types/lodash": "npm:^4"
+    jsdom: "npm:^24.1.1"
+    lestin: "npm:^0.1.14"
+    lodash: "npm:^4.17.21"
+    microbundle: "npm:^0.15.1"
+    typescript: "npm:^5.0.4"
+    vitest: "npm:^2.0.5"
+  languageName: unknown
+  linkType: soft
+
 "@npmcli/agent@npm:^2.0.0":
   version: 2.2.2
   resolution: "@npmcli/agent@npm:2.2.2"
@@ -4172,20 +4186,6 @@ __metadata:
   checksum: 10c0/e9de6cb49657b6fa70ba2d1448fd3d691a5c4370d8f7bbf1c2f64c24d461270f2117e1b0afe8cb3114f13bbd8e51de158c2a224953960331904e636a5e4c0f2a
   languageName: node
   linkType: hard
-
-"lestin-fontawesome@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "lestin-fontawesome@workspace:."
-  dependencies:
-    "@types/lodash": "npm:^4"
-    jsdom: "npm:^24.1.1"
-    lestin: "npm:^0.1.14"
-    lodash: "npm:^4.17.21"
-    microbundle: "npm:^0.15.1"
-    typescript: "npm:^5.0.4"
-    vitest: "npm:^2.0.5"
-  languageName: unknown
-  linkType: soft
 
 "lestin@npm:^0.1.14":
   version: 0.1.14
